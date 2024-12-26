@@ -45,3 +45,10 @@ VENDOR_SECURITY_PATCH := 2023-11-01
 
 # Inherit from proprietary files
 include vendor/xiaomi/sweet/BoardConfigVendor.mk
+
+# Camera
+TARGET_USES_QTI_CAMERA_DEVICE := true
+TARGET_CAMERA_BOOTTIME_TIMESTAMP := true
+TARGET_CAMERA_OVERRIDE_FORMAT_FROM_RESERVED := true
+MALLOC_SVELTE := true
+MALLOC_SVELTE_FOR_LIBC32 := true
