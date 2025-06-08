@@ -8,7 +8,7 @@
 $(call inherit-product, device/xiaomi/sm6150-common/sm6150.mk)
 
 # MiuiCamera
-$(call inherit-product-if-exists, device/xiaomi/miuicamera-sweet/device.mk)
+$(call inherit-product-if-exists, vendor/xiaomi/sweet-miuicamera/products/miuicamera.mk)
 
 # Call the BCR setup
 $(call inherit-product-if-exists, vendor/bcr/bcr.mk)
