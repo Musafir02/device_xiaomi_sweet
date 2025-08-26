@@ -25,4 +25,21 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="sweet_global-user 13 TKQ1.221013.002 V14.0.9.0.TKFMIXM release-keys" \
-    BuildFingerprint=Redmi/sweet_global/sweet:13/TKQ1.221013.002/V14.0.9.0.TKFMIXM:user/release-keys
+    BuildFingerprint=Redmi/sweet_global/sweet:13/TKQ1.221013.002/V14.0.9.0.TKFMIXM:user/release-keys \
+    DeviceProduct=sweet \
+    RisingMaintainer="Musafir02" \
+    RisingChipset="Snapdragon 732G"
+
+## risingOS-Flags
+# Addons
+TARGET_HAS_UDFPS := false
+
+# Gms
+WITH_GMS := true
+TARGET_CORE_GMS := true
+TARGET_CORE_GMS_EXTRAS := true
+#blur
+TARGET_ENABLE_BLUR := true
+
+# rising Maintainer
+RISING_MAINTAINER := Musafir02
