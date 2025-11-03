@@ -9,6 +9,11 @@ include device/xiaomi/sm6150-common/BoardConfigCommon.mk
 
 # MiuiCamera
 -include device/xiaomi/miuicamera-sweet/BoardConfig.mk
+TARGET_USES_QTI_CAMERA_DEVICE := true
+TARGET_CAMERA_BOOTTIME_TIMESTAMP := true
+TARGET_CAMERA_OVERRIDE_FORMAT_FROM_RESERVED := true
+MALLOC_SVELTE := true
+MALLOC_SVELTE_FOR_LIBC32 := true
 
 DEVICE_PATH := device/xiaomi/sweet
 
