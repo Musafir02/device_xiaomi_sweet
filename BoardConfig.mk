@@ -44,4 +44,4 @@ VENDOR_SECURITY_PATCH := 2023-11-01
 include vendor/xiaomi/sweet/BoardConfigVendor.mk
 
 # MiuiCamera
--include vendor/miuicamera-sweet/BoardConfig.mk
+-include device/xiaomi/miuicamera-sweet/BoardConfig.mk
