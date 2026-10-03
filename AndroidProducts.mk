@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/custom_sweet.mk
+    $(LOCAL_DIR)/infinity_sweet.mk
