@@ -7,9 +7,6 @@
 # Inherit from sm6150-common
 $(call inherit-product, device/xiaomi/sm6150-common/sm6150.mk)
 
-# Inherit from dolby
-$(call inherit-product-if-exists, vendor/oneplus/dolby/oplusdolby.mk)
-
 # API level, the device has been commercially launched on
 PRODUCT_SHIPPING_API_LEVEL := 30
 
